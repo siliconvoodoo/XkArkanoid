@@ -1,0 +1,314 @@
+!SceneAsset
+Id: f46c1287-adb0-4992-8e15-b999dfd09c6c
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+ChildrenIds: []
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
+Hierarchy:
+    RootPartIds:
+        - 0b04edaf-f330-4ae1-9d93-517d967fbe95
+        - 76d096d5-6b97-4d29-bb4c-0d3a35317d5d
+        - cf253c4b-ccf0-4a8a-85e6-0019307e4cac
+        - 2a05c636-e91f-42e6-93ed-69415d19fe2f
+        - 629bf924-6828-46d6-a813-63d56a0f95b9
+        - 29cf0f05-cca7-49a8-9e1f-2eddf6c697eb
+        - aa6a3a9c-a292-474c-931b-4d3e521ed465
+        - ae87d9e5-39fc-4e8b-9e94-73fc17c80f7f
+        - 675202eb-8edd-483b-8148-afff5b4158ed
+        - 7cff420c-69d1-4ac1-a5dd-a4769ad83610
+        - a266c7bc-ab88-404e-a26d-65477081b3d8
+        - dab3d187-9e6a-4a77-b76e-991e2b03e93c
+        - 043c0125-124c-4d73-a792-2a3bc2aa1596
+    Parts:
+        -   Entity:
+                Id: 043c0125-124c-4d73-a792-2a3bc2aa1596
+                Name: level complete sprite
+                Components:
+                    4f0baeb64a3082549d6df9034226dd78: !TransformComponent
+                        Id: 59d23d22-f4d6-49fc-a193-9ef0b0a9bf40
+                        Position: {X: 13.1983786, Y: -3.346536, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    7acb6c7588b0a273c4c6d6efc5f9088c: !SpriteComponent
+                        Id: 188fe704-f951-4bcc-aaf4-eb50566cb646
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 33802826-93e0-4cd5-8382-1ce983098f9d:SpriteSheet_2
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: 0b04edaf-f330-4ae1-9d93-517d967fbe95
+                Name: Camera
+                Components:
+                    80487dc03b738646b54d816aef3d3357: !TransformComponent
+                        Id: c07d4880-733b-4686-b54d-816aef3d3357
+                        Position: {X: 0.0, Y: 0.0, Z: 2.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    a740e29b03a3c14c9aa10eb9365669ec: !CameraComponent
+                        Id: 9be240a7-a303-4cc1-9aa1-0eb9365669ec
+                        Name: null
+                        Projection: Orthographic
+                        NearClipPlane: 1.0
+                        Slot: 20be0aae-ab04-4f48-a08a-7e8ae0718d7d
+        -   Entity:
+                Id: 29cf0f05-cca7-49a8-9e1f-2eddf6c697eb
+                Name: ball
+                Components:
+                    37dbdeae5bc4ba5bae34ca1093fdf833: !TransformComponent
+                        Id: 98dc1274-6b6f-4481-9780-a90f70e29a68
+                        Position: {X: -4.975, Y: -2.842802, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    86aeb540eb6846f41e8220fc4be730eb: !ModelComponent
+                        Id: a38756b9-11df-47e0-abd2-1d33390e5425
+                        Model: c12a050e-9a7e-4622-8447-4f408742e2fa:Sphere
+                        Materials: {}
+                    bad883bdc3b4643345b7296cc2987798: !arkanoid.ball,arkanoid.Game
+                        Id: 28336b1c-31a7-4131-8ad4-889592dc77bd
+                        InitialBallspeed: {X: 4.0, Y: 4.0}
+                    592e2cd24081ef8caa401a50b61958bf: !RigidbodyComponent
+                        Id: 4299e0a5-de95-43e1-b879-604a057c8abd
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: true
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            8f5ccfee2cfc95370a612f370ba8ca6c: !SphereColliderShapeDesc
+                                Is2D: false
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+        -   Entity:
+                Id: 2a05c636-e91f-42e6-93ed-69415d19fe2f
+                Name: Background
+                Components:
+                    cd3af56dd50a014fbc45dd38893fa828: !TransformComponent
+                        Id: 6df53acd-0ad5-4f01-bc45-dd38893fa828
+                        Position: {X: 1.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    e8ffae4e25d2274389df6813f39119d2: !BackgroundComponent
+                        Id: 4eaeffe8-d225-4327-89df-6813f39119d2
+                        Texture: de2b3fdf-3447-44ba-8ec4-1ec2b4d57230:Bkg
+        -   Entity:
+                Id: 629bf924-6828-46d6-a813-63d56a0f95b9
+                Name: Ground
+                Components:
+                    18e43432306f7647b7f2af6f9e73d225: !TransformComponent
+                        Id: 3234e418-6f30-4776-b7f2-af6f9e73d225
+                        Position: {X: -1.25711727, Y: -1.0, Z: 7.02876854}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    df68134a0a99634dab493a444fd68fab: !StaticColliderComponent
+                        Id: 4a1368df-990a-4d63-ab49-3a444fd68fab
+                        CanCollideWith: CustomFilter1
+                        CanSleep: true
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            5f77f33e89e43749badb27f5ad3ef379: !StaticPlaneColliderShapeDesc
+                                Normal: {X: 0.0, Y: 1.0, Z: 0.0}
+                                Offset: 0.0
+        -   Entity:
+                Id: 675202eb-8edd-483b-8148-afff5b4158ed
+                Name: brick
+                Components:
+                    8f04582aa5452887fbf2cc0e56899c59: !TransformComponent
+                        Id: 896f29dc-d560-4aa3-9b55-e398f8e89927
+                        Position*: {X: 9.507923, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.642682433, Y: 0.471479475, Z: 0.471479475}
+                        Children: {}
+                    1ee566064986f3fb0e47f6f0b9e61cb3: !SpriteComponent
+                        Id: aa8beefa-45c5-4456-932b-ec30984bed77
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 0447b6b1-6711-4804-aa18-1111e89d73d4:SpriteSheet
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    3664fe31f78051062337014963f8f0ab: !RigidbodyComponent
+                        Id: 94a6398e-0b25-41ed-880e-e406e97c7eda
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: true
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            bf4f2898f94af4b3eafb7fdf83127f36: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.3, Y: 0.7, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    a58dd9d1a0dd512eb36618a1868eeb68: !arkanoid.BrickShock,arkanoid.Game
+                        Id: 1a512c56-8788-49c7-82d7-39f22365ba1d
+            Base:
+                BasePartAsset: 072107fe-bc6b-4cfa-b42b-18aa74850ab0:brick
+                BasePartId: b4967fd1-0868-47bd-988f-bb96d861f855
+                InstanceId: ad292a60-3f4b-4497-a0da-58207ce439fe
+        -   Entity:
+                Id: 76d096d5-6b97-4d29-bb4c-0d3a35317d5d
+                Name: playerBar
+                Components:
+                    7143f704d65ad041be8a984db178ce5e: !TransformComponent
+                        Id: 04f74371-5ad6-41d0-be8a-984db178ce5e
+                        Position: {X: -5.463469, Y: -3.9921577, Z: -0.0336865261}
+                        Rotation: {X: 0.0, Y: -1.0, Z: 0.0, W: -4.371139E-08}
+                        Scale: {X: 1.85972679, Y: 0.450682253, Z: 0.450682253}
+                        Children: {}
+                    052dc2f18b8ae73e87dd34ca293e24bb: !SpriteComponent
+                        Id: 3ea9ce60-ad2a-41f2-9539-a62adb375ad8
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 425b7138-76e9-4ae0-b00f-d8d27b0e47c6:yellow sheet
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                    c8cfab9e7251f2e4d2faf88e4eddfba0: !arkanoid.BarControl,arkanoid.Game
+                        Id: 21cefae7-e31a-426c-9f62-8b64094e1e86
+                        BarSpeed: 10.0
+                    57122be8835a50682519e6544dce94f4: !RigidbodyComponent
+                        Id: 1dcaee83-8944-4f59-bc4f-dec1d9f991ef
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: true
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            0418e8b35edc41ae48929739c2901586: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.3, Y: 0.65, Z: 3.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Entity:
+                Id: 7cff420c-69d1-4ac1-a5dd-a4769ad83610
+                Name: global script holder
+                Components:
+                    94426c9db38ae33a36909e13651a9dd3: !TransformComponent
+                        Id: af0b95a6-4425-49b1-a3ae-8828c4713423
+                        Position: {X: -1.61289012, Y: -0.03664532, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    a14549ff04710a52612c68be48d13599: !arkanoid.HitReaction,arkanoid.Game
+                        Id: 4301f724-a4ef-406f-8f55-3c590763bc62
+                    96b29bca15c7bbeee587a539bbac515b: !arkanoid.Level1,arkanoid.Game
+                        Id: ab8f5048-a50b-4f38-a066-1ff48b255e33
+                    452ead69d908806cc26b94e952a12096: !arkanoid.GameState,arkanoid.Game
+                        Id: 0a4e3557-035d-4579-9222-9b5820b4ab33
+                        ballEntity: ref!! 29cf0f05-cca7-49a8-9e1f-2eddf6c697eb
+                        barEntity: ref!! 76d096d5-6b97-4d29-bb4c-0d3a35317d5d
+                        deathEntity: ref!! a266c7bc-ab88-404e-a26d-65477081b3d8
+                        globalScriptHolder: ref!! 7cff420c-69d1-4ac1-a5dd-a4769ad83610
+                        levelComplete: ref!! 043c0125-124c-4d73-a792-2a3bc2aa1596
+        -   Entity:
+                Id: a266c7bc-ab88-404e-a26d-65477081b3d8
+                Name: death
+                Components:
+                    6f16bfc13b1795c968c8a4401c91fa3d: !TransformComponent
+                        Id: 6890406a-3d6e-4ac6-95ef-4b420d5981ba
+                        Position: {X: 11.6083221, Y: -1.85648561, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    bf56d552e0a734c1dc71dee974f2beaf: !SpriteComponent
+                        Id: e7f20538-bf13-467f-a693-1850ab37411d
+                        SpriteProvider: !SpriteFromSheet
+                            Sheet: 6ee5c30d-a024-411f-94b3-2b95f8e54c18:RIP sheet
+                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        -   Entity:
+                Id: aa6a3a9c-a292-474c-931b-4d3e521ed465
+                Name: Ambient light
+                Components:
+                    0cb65f12d66c56272f4aa1a11b365f4a: !TransformComponent
+                        Id: 081bb070-d651-4dc2-a6ff-69a123367659
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    fa006dcd4393ed21575275de546bdc87: !LightComponent
+                        Id: 5e8485a4-9495-4b60-a53f-1d2521e8bb1a
+                        Type: !LightAmbient
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+        -   Entity:
+                Id: ae87d9e5-39fc-4e8b-9e94-73fc17c80f7f
+                Name: Directional light
+                Components:
+                    b356250f9767ef8732e6355f1612cab5: !TransformComponent
+                        Id: 87b31771-36a9-4dcd-9a2a-b836d2d6981c
+                        Position: {X: -2.817343, Y: 1.91933668, Z: 0.0}
+                        Rotation: {X: -0.810449362, Y: -0.08438968, Z: 0.211617887, W: 0.5396925}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    7df2aa9aaf15963267c7f7887c065e11: !LightComponent
+                        Id: 1f9d619a-a26e-48c4-8ec5-be184c220139
+                        Type: !LightDirectional
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                            Shadow:
+                                Size: Large
+                                DepthRange: {}
+                                PartitionMode: !LightDirectionalShadowMap.PartitionLogarithmic {}
+                                BiasParameters: {}
+        -   Entity:
+                Id: cf253c4b-ccf0-4a8a-85e6-0019307e4cac
+                Name: GUI
+                Components:
+                    95a213dbf7f1bf4ba0b0c17fa73967b3: !TransformComponent
+                        Id: db13a295-f1f7-4bbf-a0b0-c17fa73967b3
+                        Position: {X: -4.08378172, Y: 1.22754931, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    583a1dc2c443224b99a1d932a8b9c338: !arkanoid.GuiScript,arkanoid.Game
+                        Id: c21d3a58-43c4-4b22-99a1-d932a8b9c338
+                        Font: bcf37947-b523-4b08-b643-d11300f64f99:Font
+                    6e27d2c0390df9439df8cee475719561: !UIComponent
+                        Id: c0d2276e-0d39-43f9-9df8-cee475719561
+                        Page: null
+                        Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                        Size: {X: 1.0, Y: 1.0, Z: 1.0}
+        -   Entity:
+                Id: dab3d187-9e6a-4a77-b76e-991e2b03e93c
+                Name: restart ui
+                Components:
+                    6ffc9444f0581f205e773be2521561fa: !TransformComponent
+                        Id: f8ffa98e-45be-4187-869d-cf11faaa3dcc
+                        Position: {X: -0.5978125, Y: -2.4125874, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    c90252d2819a53b9bfdf00623c3bc0eb: !UIComponent
+                        Id: b31dfd3d-a72d-4d43-a77d-a02dad24d7e4
+                        Page: 6633d0fc-b2fa-496f-820a-c6f9a9925783:restart btn ui page
+                        Resolution: {X: 2000.0, Y: 1000.0, Z: 1000.0}
+                        Size: {X: 1.0, Y: 1.0, Z: 1.0}

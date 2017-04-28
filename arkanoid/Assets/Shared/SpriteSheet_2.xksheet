@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: 33802826-93e0-4cd5-8382-1ce983098f9d
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    e2eb57cf47e4120cd2196b242c7b325f:
+        Source: ../../Resources/levelcomplete.png
+        Name: levelcomplete
+        TextureRegion: {X: 0, Y: 0, Width: 600, Height: 65}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

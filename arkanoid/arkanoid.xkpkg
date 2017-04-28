@@ -1,0 +1,39 @@
+!Package
+Id: 4590baea-9d4d-40c0-95bb-884001a764d7
+SerializedVersion: {Assets: 0.0.4}
+Meta:
+    Name: arkanoid
+    Version: 1.0.0.0
+    Authors: []
+    Owners: []
+    Dependencies:
+        -   Name: Xenko
+            Version: 2.0.0.2
+            RootAssets: []
+LocalDependencies: []
+Profiles:
+    -   Name: Shared
+        Platform: Shared
+        InheritProfiles: []
+        AssetFolders:
+            -   Path: Assets/Shared
+            -   Path: arkanoid.Game/Effects
+        OutputGroupDirectories: {}
+        ProjectReferences:
+            -   Id: e25dce00-0f98-47bf-b2ae-6d9aae54b162
+                Location: arkanoid.Game/arkanoid.Game.csproj
+                Type: Library
+    -   Name: Windows
+        Platform: Windows
+        InheritProfiles: []
+        AssetFolders:
+            -   Path: Assets/Windows
+        OutputGroupDirectories: {}
+        ProjectReferences:
+            -   Id: de0c7c3a-c379-4584-b644-eda47a5b3cfd
+                Location: arkanoid.Windows/arkanoid.Windows.csproj
+                Type: Executable
+ExplicitFolders: []
+Bundles: []
+TemplateFolders: []
+RootAssets: []

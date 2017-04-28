@@ -1,0 +1,7 @@
+!Texture
+Id: 9743bfd4-0a9b-4045-b8c9-f6bbde4e0cb6
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../Resources/restartbtnHovered.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

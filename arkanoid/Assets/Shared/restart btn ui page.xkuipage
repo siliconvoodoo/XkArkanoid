@@ -1,0 +1,43 @@
+!UIPageAsset
+Id: 6633d0fc-b2fa-496f-820a-c6f9a9925783
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Design:
+    Resolution: {X: 800.0, Y: 600.0, Z: 1000.0}
+Hierarchy:
+    RootPartIds:
+        - cad27b6f-5faa-438e-b3d8-576e75c74dcf
+    Parts:
+        -   UIElement: !Grid
+                DependencyProperties: {}
+                Id: cad27b6f-5faa-438e-b3d8-576e75c74dcf
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 770.0
+                Height: 371.0
+                Margin: {Top: 349.0, Right: 510.0}
+                Children:
+                    d845550831e0e370c16c583f097d90cf: !Button ref!! fb8425f4-51f5-4250-be9b-ae509722bd4e
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !Button
+                DependencyProperties: {}
+                Id: fb8425f4-51f5-4250-be9b-ae509722bd4e
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                CanBeHitByUser: true
+                Width: 300.0
+                Height: 97.0
+                HorizontalAlignment: Right
+                Margin: {Top: 151.5, Right: -22.0, Bottom: 122.5}
+                Name: restartbtn
+                Padding: {Left: 10.0, Top: 5.0, Right: 10.0, Bottom: 7.0}
+                PressedImage: !SpriteFromTexture
+                    Texture: 9830839e-929b-4983-9b64-3161b2b3f67a:restartbtn
+                    Center: {X: 0.0, Y: 0.0}
+                NotPressedImage: !SpriteFromTexture
+                    Texture: 9830839e-929b-4983-9b64-3161b2b3f67a:restartbtn
+                    Center: {X: 0.0, Y: 0.0}
+                MouseOverImage: !SpriteFromTexture
+                    Texture: 9743bfd4-0a9b-4045-b8c9-f6bbde4e0cb6:restartbtnHovered
+                    Center: {X: 0.0, Y: 0.0}

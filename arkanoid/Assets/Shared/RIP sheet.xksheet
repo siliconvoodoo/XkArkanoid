@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: 6ee5c30d-a024-411f-94b3-2b95f8e54c18
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    35e045268bbd10ae0cabf8402d0ff863:
+        Source: ../../Resources/death.png
+        Name: death
+        TextureRegion: {X: 0, Y: 0, Width: 300, Height: 200}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

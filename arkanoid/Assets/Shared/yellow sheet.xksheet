@@ -1,0 +1,15 @@
+!SpriteSheet
+Id: 425b7138-76e9-4ae0-b00f-d8d27b0e47c6
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    9bff72e5b8b0d46b9a73fe43532e31f3:
+        Source: ../../Resources/yellowbrick.png
+        Name: yellowbrick
+        TextureRegion: {X: 0, Y: 0, Width: 128, Height: 64}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

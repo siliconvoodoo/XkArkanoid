@@ -1,0 +1,9 @@
+!SpriteFont
+Id: bcf37947-b523-4b08-b643-d11300f64f99
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+FontSource: !SystemFontProvider
+    FontName: Segoe UI
+    Style: Regular
+FontType: !RuntimeRasterizedSpriteFontType
+    Size: 16.0

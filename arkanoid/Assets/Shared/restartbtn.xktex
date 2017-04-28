@@ -1,0 +1,7 @@
+!Texture
+Id: 9830839e-929b-4983-9b64-3161b2b3f67a
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../Resources/restartbtn.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

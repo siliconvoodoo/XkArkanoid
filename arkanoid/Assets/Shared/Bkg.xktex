@@ -1,0 +1,8 @@
+!Texture
+Id: de2b3fdf-3447-44ba-8ec4-1ec2b4d57230
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../Resources/bg.png
+IsCompressed: false
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
